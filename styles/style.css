@@ -1,0 +1,18 @@
+/* google fonts link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* basic styles  */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
