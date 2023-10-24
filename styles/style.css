@@ -36,3 +36,9 @@ header {
 .banner {
   height: calc(100vh - 80px);
 }
+
+/* out-moto section styles  */
+.our-moto img {
+  height: 60px;
+  width: 60px;
+}
