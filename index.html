@@ -16,9 +16,9 @@
   </head>
   <body>
     <!-- header section  -->
-    <header class="container-fluid">
+    <header>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-4 my-3 shadow"
+        class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-4 shadow"
       >
         <div class="container">
           <a class="navbar-brand fs-4" href="#">Demo Website</a>
@@ -36,12 +36,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item me-5">
-                <a class="nav-link fs-5" aria-current="page" href="#"
+                <a class="nav-link fs-5" aria-current="page" href="#feature"
                   >Feature</a
                 >
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link fs-5" href="#">Download</a>
+                <a class="nav-link fs-5" href="#download">Download</a>
               </li>
               <li class="nav-item">
                 <a
@@ -58,15 +58,13 @@
       </nav>
     </header>
     <!-- main section  -->
-    <main class="container-fluid">
+    <main>
       <!-- banner section  -->
-      <section class="banner mt-5">
-        <div class="container">
-          <div class="row h-100">
-            <div class="col-md-6">
-              <div
-                class="banner-description d-flex flex-column justify-content-center align-items-start h-100"
-              >
+      <section class="banner">
+        <div class="container h-100">
+          <div class="row justify-content-center align-items-center gy-4 h-100">
+            <div class="col-12 col-md-6">
+              <div class="banner-description">
                 <h1 class="fw-bold text-blue">
                   Showcase your app
                   <span class="text-purple">beautifully</span>.
@@ -80,7 +78,7 @@
                     <img
                       src="images/image/google-play.png"
                       alt="google-play-store"
-                      class="img-fluid"
+                      class="img-fluid mb-1 mb-md-0"
                     />
                   </a>
                   <a href="">
@@ -93,10 +91,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div
-                class="banner-image d-flex justify-content-center align-items-center"
-              >
+            <div class="col-12 col-md-6">
+              <div class="banner-image text-center">
                 <img
                   src="images/image/banner.png"
                   alt="phone"
@@ -108,7 +104,7 @@
         </div>
       </section>
       <!-- out-moto section      -->
-      <section class="our-moto background-gradient">
+      <section class="our-moto my-5 background-gradient">
         <div
           class="container d-flex flex-column justify-content-center align-items-center py-5"
         >
@@ -123,7 +119,154 @@
           />
         </div>
       </section>
+      <!-- feature section  -->
+      <section id="feature">
+        <div class="container">
+          <div class="row gy-4 align-items-center">
+            <div class="col-12 col-lg-6 order-md-2 order-lg-1">
+              <div class="feature-image text-center">
+                <img
+                  src="images/image/phone.png"
+                  alt="phone"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 order-md-1 order-lg-2">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="card text-center p-4">
+                    <span class=""
+                      ><i
+                        class="text-white rounded-circle background-gradient p-3 mb-3 fa-solid fa-mobile-button"
+                      ></i
+                    ></span>
+                    <h3 class="fs-3 fw-semibold">Device Mockups</h3>
+                    <p class="fs-6 fw-medium">
+                      Ready to use HTML/CSS mockups, no Photoshop required!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card text-center p-4">
+                    <span class=""
+                      ><i
+                        class="text-white rounded-circle background-gradient p-3 mb-3 fa-solid fa-mobile-button"
+                      ></i
+                    ></span>
+                    <h3 class="fs-3 fw-semibold">Device Mockups</h3>
+                    <p class="fs-6 fw-medium">
+                      Ready to use HTML/CSS mockups, no Photoshop required!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card text-center p-4">
+                    <span class=""
+                      ><i
+                        class="text-white rounded-circle background-gradient p-3 mb-3 fa-solid fa-mobile-button"
+                      ></i
+                    ></span>
+                    <h3 class="fs-3 fw-semibold">Device Mockups</h3>
+                    <p class="fs-6 fw-medium">
+                      Ready to use HTML/CSS mockups, no Photoshop required!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card text-center p-4">
+                    <span class=""
+                      ><i
+                        class="text-white rounded-circle background-gradient p-3 mb-3 fa-solid fa-mobile-button"
+                      ></i
+                    ></span>
+                    <h3 class="fs-3 fw-semibold">Device Mockups</h3>
+                    <p class="fs-6 fw-medium">
+                      Ready to use HTML/CSS mockups, no Photoshop required!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- another-section  -->
+      <section class="another-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="section-description">
+                <h3 class="text-blue display-4 fw-bold mb-3">
+                  Enter a new age of web design
+                </h3>
+                <p class="fs-5 fw-medium text-muted">
+                  This section is perfect for featuring some information about
+                  your application, why it was built, the problem it solves, or
+                  anything else! There's plenty of space for text here, so don't
+                  worry about writing too much.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="section-image text-center">
+                <img
+                  src="images/image/web-design.png"
+                  alt="web-design"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- no-writing section  -->
+      <section class="no-writing">
+        <div
+          class="container d-flex flex-column justify-content-center align-items-start h-100"
+        >
+          <h3 class="display-2 fw-bold w-md-50 text-white mb-3">
+            Stop waiting. Start building.
+          </h3>
+          <button class="btn btn-outline-light p-3 rounded-pill">
+            Download for Free
+          </button>
+        </div>
+      </section>
+      <!-- download section  -->
+      <section id="download" class="background-gradient">
+        <div class="container">
+          <div
+            class="py-5 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="fs-1 text-white text-center fw-bold mb-4">
+              Get the app now!
+            </h3>
+            <div>
+              <a href="">
+                <img
+                  src="images/image/google-play.png"
+                  alt="google-play-store"
+                  class="img-fluid mb-1 mb-md-0"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="images/image/app-store.png"
+                  alt="app-store"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer section  -->
+    <footer class="bg-dark py-5 text-center">
+      <p class="text-white">&copy; Your Website 2021. All Rights Reserved.</p>
+    </footer>
 
     <!-- bootstrap js cdn  -->
     <script

@@ -34,11 +34,37 @@ header {
 }
 /* banner section styles */
 .banner {
-  height: calc(100vh - 80px);
+  margin-top: 50px;
 }
 
 /* out-moto section styles  */
 .our-moto img {
   height: 60px;
   width: 60px;
+}
+
+/* feature section styles  */
+#feature {
+  margin-top: 50px;
+}
+
+#feature .fa-mobile-button {
+  font-size: 35px;
+}
+
+/* another-section styles  */
+.another-section {
+  margin-top: 80px;
+}
+
+/* no-writing section styles  */
+.no-writing {
+  background-image: url(../images/image/background.png);
+  background-color: #0000006b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  border-radius: 3px;
+  margin-top: 50px;
 }
